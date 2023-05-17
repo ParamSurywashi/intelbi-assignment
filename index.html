@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Media Profile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <h1>Social Media Profile</h1>
+  
+  <form id="profileForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    
+    <input type="submit" value="Create Profile" id="btn">
+  </form>
+  <h1>Or</h1>
+  
+<div class="container">
+  <button class="btn">
+    <a href="https://www.facebook.com/login/" id="facebook">
+       <i class="fa fa-facebook" style="font-size:35px;"></i>
+    </a>
+  </button>
+  <button class="btn">
+    <a href="https://www.instagram.com/accounts/login/" id="instagram">
+    <i class="fa fa-instagram" style="font-size:35px;"></i>
+    </a>
+  </button>
+  <button class="btn" >
+    <a href="https://twitter.com/login" id="twitter">
+    <i class="fa fa-twitter" style="font-size:35px;"></i>
+    </a>
+  </button>
+  <button class="btn">
+    <a href="https://accounts.google.com/ServiceLogin?ltmpl=mobNH" id="google">
+    <i class="fa fa-google-plus" style="font-size:35px;"></i>
+    </a>
+  </button>
+  </div>
+
+
+  <div id="profileData"></div>
+
+  <script src="./js.js"></script>
+</body>
+</html>

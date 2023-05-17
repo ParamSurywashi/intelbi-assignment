@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color:lightseagreen;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: #333;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#btn {
+  padding: 10px 20px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#profileData {
+  margin-top: 20px;
+}
+
+
+.btn {
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+  outline: none;
+  border: none;
+  background: #d6d6d6;
+  box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+  border-radius: 50%;
+  transition: 0.2;
+}
+
+.btn:hover {
+  cursor: pointer;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.21);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+#facebook{
+  color: blue;
+}
+#instagram{
+  color: red;
+}
+#twitter{
+  color: rgb(110, 141, 232);
+}
+#google{
+  color: red;
+}
